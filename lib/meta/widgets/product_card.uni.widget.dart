@@ -56,7 +56,8 @@ class ProductCard extends StatelessWidget {
                   const Text("4.5 ratings")
                 ],
               ),
-              5.boxV
+              5.boxV,
+              
             ],
           );
         },

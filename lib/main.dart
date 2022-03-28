@@ -1,4 +1,5 @@
 import 'package:e_com/app/constants.dart';
+import 'package:e_com/meta/views/admin.page.dart';
 import 'package:e_com/meta/views/home.page.dart';
 import 'package:e_com/meta/views/login.page.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +21,7 @@ class Ecom extends StatelessWidget {
               backgroundColor: Colors.black,
               centerTitle: true,
               titleTextStyle: TextStyle(fontSize: 18, fontFamily: "Gifory"))),
-      home: const HomePage(),
+      home: const AmazonAdmin(),
     );
   }
 }
